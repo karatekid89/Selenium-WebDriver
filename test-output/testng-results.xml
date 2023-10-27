@@ -2,24 +2,41 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-26T20:32:50 PST" name="Default suite" finished-at="2023-10-26T20:33:15 PST" duration-ms="24904">
+  <suite started-at="2023-10-27T20:09:11 PST" name="Default suite" finished-at="2023-10-27T20:09:30 PST" duration-ms="19119">
     <groups>
     </groups>
-    <test started-at="2023-10-26T20:32:50 PST" name="Default test" finished-at="2023-10-26T20:33:15 PST" duration-ms="24904">
-      <class name="single.browser.LoginCredentials">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:single.browser.LoginCredentials@36fc695d]" started-at="2023-10-26T20:32:50 PST" name="beforeTest" finished-at="2023-10-26T20:32:52 PST" duration-ms="2625" status="PASS">
+    <test started-at="2023-10-27T20:09:11 PST" name="Default test" finished-at="2023-10-27T20:09:30 PST" duration-ms="19119">
+      <class name="single.browser.LoginCredentialsV2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:single.browser.LoginCredentialsV2@38425407]" started-at="2023-10-27T20:09:11 PST" name="beforeTest" finished-at="2023-10-27T20:09:13 PST" duration-ms="2268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="navigateToLoginPage()[pri:0, instance:single.browser.LoginCredentials@36fc695d]" started-at="2023-10-26T20:32:52 PST" name="navigateToLoginPage" finished-at="2023-10-26T20:33:14 PST" duration-ms="21739" status="PASS">
+        <test-method signature="navigateToLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:single.browser.LoginCredentialsV2@38425407]" started-at="2023-10-27T20:09:13 PST" name="navigateToLoginPage" data-provider="UserCredentials" finished-at="2023-10-27T20:09:29 PST" duration-ms="15826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:single.browser.LoginCredentials@36fc695d]" started-at="2023-10-26T20:33:14 PST" name="afterTest" finished-at="2023-10-26T20:33:15 PST" duration-ms="511" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:single.browser.LoginCredentialsV2@38425407]" started-at="2023-10-27T20:09:29 PST" name="afterTest" finished-at="2023-10-27T20:09:30 PST" duration-ms="496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- single.browser.LoginCredentials -->
+      </class> <!-- single.browser.LoginCredentialsV2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

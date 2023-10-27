@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="single.browser.NavigateToPage">
+      <class name="single.browser.LoginCredentialsV1">
         <methods>
-          <include name="navigateToLoginPage"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="navigateToLoginPage"/>
         </methods>
-      </class> <!-- single.browser.NavigateToPage -->
+      </class> <!-- single.browser.LoginCredentialsV1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

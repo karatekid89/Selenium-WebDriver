@@ -24,7 +24,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import page.elements.LoginPage;
 
-public class LoginCredentials {
+public class LoginCredentialsV1 {
 
 	WebDriver driver;
 
